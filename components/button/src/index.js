@@ -10,7 +10,7 @@ import styled from '@emotion/styled';
 
 const Button = ({ children }) => {
   const Button = styled.button({
-    backgroundColor: blue
+    backgroundColor: 'blue'
   });
 
   return (
