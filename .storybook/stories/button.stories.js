@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-// import { Button } from '@storybook/react/demo';
+
 import Button from '../../components/button/src'
 
 storiesOf('Button', module)

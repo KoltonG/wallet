@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "commit": "git-cz",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "transpile": "lerna run transpile"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
