@@ -1,7 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Button from '../../components/button/src'
+// import Button from '../../components/button/src'
+import Button from '@koltong/wallet-button';
 
 storiesOf('Button', module)
   .add('with text', () => (
