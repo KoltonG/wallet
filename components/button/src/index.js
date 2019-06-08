@@ -11,7 +11,7 @@ import styled from '@emotion/styled';
 const Button = ({ children }) => {
   const Button = styled.button({
     padding: '15px 20px',
-    borderRadius: 5,
+    borderRadius: 0,
     fontSize: 16,
     lineHeight: '24px',
     minWidth: 150,
