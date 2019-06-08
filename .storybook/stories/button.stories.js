@@ -3,8 +3,8 @@ import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
 
 // Components
-import Button from '../../components/button/src'
-// import Button from '@koltong/wallet-button';
+// import Button from '../../components/button/src'
+import Button from '@koltong/wallet-button';
 
 // Docs
 import documentation from '../../components/button/README.md';
