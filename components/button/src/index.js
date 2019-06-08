@@ -10,13 +10,18 @@ import styled from '@emotion/styled';
 
 const Button = ({ children }) => {
   const Button = styled.button({
-    backgroundColor: 'blue'
+    padding: '15px 20px',
+    borderRadius: 5,
+    fontSize: 16,
+    lineHeight: '24px',
+    minWidth: 150,
+    color: '#fff',
+    backgroundColor: '#613EEA',
+    cursor: 'pointer'
   });
 
   return (
-    <Button>
-      { children }
-    </Button>
+    <Button>{children}</Button>
   );
 }
 
